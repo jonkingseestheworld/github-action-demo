@@ -1,6 +1,8 @@
 
 # install.packages('googlesheets4')
 
+renv::restore()
+
 #library(tidyverse)
 library(googlesheets4)
 library(readr)
